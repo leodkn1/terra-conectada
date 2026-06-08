@@ -51,9 +51,10 @@ body{
     text-align:center;
 }
 
-.logo-login{
-    width:120px;
-    margin-bottom:20px;
+.logo-login {
+    width: 150px;
+    height: auto;
+    display: block;
 }
 
 .login-card h1{
