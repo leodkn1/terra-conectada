@@ -55,6 +55,8 @@ body{
     width: 150px;
     height: auto;
     display: block;
+    justify-content: center;
+    border: 3px solid green;
 }
 
 .login-card h1{
