@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Painel - Terra Conectada</title>
+
+    <link rel="stylesheet" href="../assets/css/painel.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+
+        <aside class="sidebar">
+
+            <div class="sidebar-logo">
+
+                <img
+                src="../assets/img/logo.png.png"
+                alt="Terra Conectada">
+
+            </div>
+
+            <nav>
+
+                <ul>
+
+                    <li class="active">
+                        <i class="fas fa-chart-line"></i>
+                        Painel
+                    </li>
+
+                    <li>
+                      <a href="dispositivos.html">
+                     <i class="fas fa-radio"></i>
+                            Dispositivos
+                    </a>
+                    </li>
+
+                    <li>
+                        <a href="alertas.html">
+                            <i class="fas fa-bullhorn"></i>
+                            Enviar Alerta
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="historico.html">
+                            <i class="fas fa-clock-rotate-left"></i>
+                            Histórico
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="../login.html">
+                            <i class="fas fa-right-from-bracket"></i>
+                            Sair
+                        </a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+        </aside>
+
+
+        <main class="main-content">
+
+            <header class="topo">
+
+                <h1>
+                    Painel de Monitoramento
+                </h1>
+
+                <p>
+                    Monitoramento climático em tempo real.
+                </p>
+
+            </header>
+
+
+            <section class="cards">
+
+                <article class="card">
+
+                    <h3>Alertas Ativos</h3>
+
+                    <span>03</span>
+
+                </article>
+
+                <article class="card">
+
+                    <h3>Dispositivos</h3>
+
+                    <span>124</span>
+
+                </article>
+
+                <article class="card">
+
+                    <h3>Alertas Hoje</h3>
+
+                    <span>37</span>
+
+                </article>
+
+                <article class="card">
+
+                    <h3>Regiões</h3>
+
+                    <span>12</span>
+
+                </article>
+
+            </section>
+
+
+            <section class="alertas">
+
+                <h2>
+                    Alertas Climáticos
+                </h2>
+
+                <div class="alerta vermelho">
+
+                    <h3>
+                        🔴 Tempestade Forte
+                    </h3>
+
+                    <p>
+                        Região Norte
+                    </p>
+
+                </div>
+
+                <div class="alerta amarelo">
+
+                    <h3>
+                        🟡 Risco de Alagamento
+                    </h3>
+
+                    <p>
+                        Região Sudeste
+                    </p>
+
+                </div>
+
+                <div class="alerta verde">
+
+                    <h3>
+                        🟢 Situação Normal
+                    </h3>
+
+                    <p>
+                        Região Sul
+                    </p>
+
+                </div>
+
+            </section>
+
+            <section class="terra">
+
+                <h2>
+                    Monitoramento Global
+                </h2>
+
+                <img
+    src="../assets/img/terra.png.png"
+    alt="Imagem da Terra"
+    class="terra-img">
+
+            </section>
+
+        </main>
+
+    </div>
+
+    <script src="../assets/js/painel.js"></script>
+
+</body>
+
+</html>

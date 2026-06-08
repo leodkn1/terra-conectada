@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Terra Conectada</title>
+
+    <link rel="stylesheet" href="assets/css/login.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <main class="login-container">
+
+        <section class="login-card">
+
+            <img
+                src="assets/img/logo.png"
+                alt="Logo Terra Conectada"
+                class="logo-login">
+
+            <h1>Terra Conectada</h1>
+
+            <p class="subtitulo">
+                Painel Interno de Monitoramento
+            </p>
+
+            <form id="loginForm">
+
+                <div class="input-group">
+
+                    <label for="usuario">
+                        Usuário
+                    </label>
+
+                    <input
+                        type="text"
+                        id="usuario"
+                        placeholder="Digite seu usuário"
+                        required>
+
+                </div>
+
+                <div class="input-group">
+
+                    <label for="senha">
+                        Senha
+                    </label>
+
+                    <input
+                        type="password"
+                        id="senha"
+                        placeholder="Digite sua senha"
+                        required>
+
+                </div>
+
+                <button type="submit">
+                    Entrar
+                </button>
+
+                <p id="mensagemErro"></p>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <script src="assets/js/login.js"></script>
+
+</body>
+
+</html>

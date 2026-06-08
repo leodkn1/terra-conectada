@@ -1,0 +1,1 @@
+console.log('Painel Terra Conectada carregado');

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Enviar Alerta - Terra Conectada</title>
+
+    <link rel="stylesheet" href="../assets/css/alertas.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- SIDEBAR -->
+
+    <aside class="sidebar">
+
+        <div class="sidebar-logo">
+
+            <img src="../assets/img/logo.png.png"
+            alt="Logo Terra Conectada">
+
+        </div>
+
+        <nav>
+
+            <ul>
+
+                <li class="active">
+                        <i class="fas fa-chart-line"></i>
+                        Painel
+                    </li>
+
+                    <li>
+                      <a href="dispositivos.html">
+                     <i class="fas fa-radio"></i>
+                            Dispositivos
+                    </a>
+                    </li>
+
+                    <li>
+                        <a href="alertas.html">
+                            <i class="fas fa-bullhorn"></i>
+                            Enviar Alerta
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="historico.html">
+                            <i class="fas fa-clock-rotate-left"></i>
+                            Histórico
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="../login.html">
+                            <i class="fas fa-right-from-bracket"></i>
+                            Sair
+                        </a>
+                    </li>
+
+            </ul>
+
+        </nav>
+
+    </aside>
+
+    <!-- CONTEÚDO -->
+
+    <main class="main-content">
+
+        <header class="topo">
+
+            <h1>Enviar Alerta Climático</h1>
+
+            <p>
+                Validação e envio de alertas para os rádios cadastrados.
+            </p>
+
+        </header>
+
+        <section class="form-card">
+
+            <form id="alertaForm">
+
+                <div class="campo">
+
+                    <label>Tipo de Alerta</label>
+
+                    <select id="tipo">
+
+                        <option>Tempestade</option>
+                        <option>Alagamento</option>
+                        <option>Chuvas Intensas</option>
+                        <option>Ventos Fortes</option>
+                        <option>Deslizamento</option>
+
+                    </select>
+
+                </div>
+
+                <div class="campo">
+
+                    <label>Região</label>
+
+                    <input
+                    type="text"
+                    id="regiao"
+                    placeholder="Ex: Região Norte">
+
+                </div>
+
+                <div class="campo">
+
+                    <label>Nível de Risco</label>
+
+                    <select id="nivel">
+
+                        <option>🟢 Baixo</option>
+                        <option>🟡 Médio</option>
+                        <option>🔴 Crítico</option>
+
+                    </select>
+
+                </div>
+
+                <div class="campo">
+
+                    <label>Mensagem</label>
+
+                    <textarea
+                    id="mensagem"
+                    rows="6"
+                    placeholder="Digite a mensagem que será enviada para os rádios..."></textarea>
+
+                </div>
+
+                <button type="submit">
+                    Enviar Alerta
+                </button>
+
+                <p id="sucesso"></p>
+
+            </form>
+
+        </section>
+
+    </main>
+
+</div>
+
+<script src="../assets/js/alertas.js"></script>
+
+</body>
+</html>
