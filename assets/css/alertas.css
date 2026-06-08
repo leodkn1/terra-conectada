@@ -166,3 +166,10 @@ button:hover{
     }
 
 }
+
+img {
+    width: 200px !important;
+    height: auto !important;
+    display: block !important;
+    border: 3px solid rgba(255, 0, 0, 0) !important;
+}
