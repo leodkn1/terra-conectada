@@ -21,7 +21,6 @@ body{
     min-height:100vh;
 }
 
-/* SIDEBAR */
 
 .sidebar{
     background:#0b3d2e;
@@ -72,7 +71,7 @@ body{
     background:#2d6a4f;
 }
 
-/* CONTEÚDO */
+
 
 .main-content{
     padding:40px;
@@ -91,7 +90,6 @@ body{
     color:#666;
 }
 
-/* FORMULÁRIO */
 
 .form-card{
 
