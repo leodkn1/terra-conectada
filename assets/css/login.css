@@ -117,3 +117,10 @@ button:hover{
     margin-top:15px;
     font-weight:bold;
 }
+
+img {
+    width: 200px !important;
+    height: auto !important;
+    display: block !important;
+    border: 3px solid red !important;
+}
